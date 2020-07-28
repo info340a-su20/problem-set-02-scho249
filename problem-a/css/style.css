@@ -28,3 +28,17 @@ footer {
   padding-top: 1rem;
   font-size: 80%;
 }
+
+circle:nth-of-type(1), circle:nth-of-type(2) {
+  fill: #5f5f5f;
+}
+
+path:nth-of-type(1), path:nth-of-type(2) {
+  stroke: #5f5f5f;
+  stroke-width: 8px;
+}
+
+circle.small:nth-of-type(1), circle.small:nth-of-type(2) {
+  fill: white;
+}
+
